@@ -1,0 +1,287 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#bg-img{
+    background-image: url("img/khokho.jpg");
+
+    min-height: 1250px;
+
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    padding: 18px 10px;
+    margin: 0px 10px;
+}
+#navbar ul{ 
+    display: flex;
+    padding: 2px 1px;
+    margin: -30px 0px;
+}
+#navbar ul li{
+    
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 34px;
+    margin: 26px 8px;
+}
+
+#navbar ul li a{
+    /* display:block ; */
+    padding: 3px 39px;
+    text-decoration: none;
+    font-size: 2.3rem;
+    color: rgb(255, 255, 255);
+    margin: 26px;
+    
+}
+#navbar ul li a:hover{
+    color: black;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 4px rgb(0, 0, 0) solid;
+}
+
+#home{
+    margin: 59px;
+    padding: 395px 495px;
+    
+}
+
+.h-primary{
+    font-size: 3.5rem;
+    color: white;
+    
+}
+.h-primary1{
+    font-size: 3.5rem;
+    color: red;
+    margin: 0px 22px;
+   
+}
+#primary{
+    display: flex;
+    columns: 1px;
+}
+.btn2 {
+    font-size: 1.5rem;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 5px 5px ;
+    padding: 7px 70px;
+    color:white;
+    background-color: red;
+    cursor: pointer;
+
+}
+.btn2 a:hover{
+    color:whitesmoke;
+    background-color: white;
+}
+/* .btn2 a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+} */
+#btn1{
+    padding: 3px 39px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin: 29px;
+    background-color: rgb(0, 0, 0);
+    border: 3px white solid;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#btn1 a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#logo {
+    height: 50px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+#logo img{
+    position: absolute;
+    height: 460px;
+    left:85px;
+    top: 290px;
+    margin: 54px 0px;  
+}
+.bg-img2 {
+    /* background-image: url("img/niall-horan-mullingar-one-direction-drawing-one-direction-93e6bb9210fc9952a111d4cb80422cf4.png") left no-repeat ;
+    background: linear-gradient(red white);
+    position: relative;
+    height: 100%; */
+    background-image: url('img/niall-horan-mullingar-one-direction-drawing-one-direction-93e6bb9210fc9952a111d4cb80422cf4.png');
+    height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 1055px;
+}
+.news{
+     display: flex;
+    flex-direction: column; 
+    padding: 50px 90px;
+    position: absolute;
+    top:244px;
+    left: 751px;
+    font-size: 2.9rem;
+    color: white;
+    opacity: 1.2;
+} 
+.btn3{
+    font-size: 2.2rem;
+    border: 3px white solid;
+    background-color:red;
+    color: white;
+    border-radius: 40px;
+    padding: 8px 120px;
+    margin: 45px 250px;
+    cursor: pointer;
+}
+#NEWS{
+    background-image: repeating-linear-gradient(-60deg, white 65%, red 580%);
+}
+#SONGS{
+    text-align: center;
+    
+}
+.songs{
+    padding: 500px 0px;
+    margin: 0px 0px;
+    color: white;
+    font-size: 3rem;
+    
+}
+.bg-img3{
+    background-image: url('img/about.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 950px;
+}
+.bg-img4{
+    background-image: url('img/liam-payne-one-direction-singer-musician-songwriter-liam-payne-56a7d4ebe0480cf8bc4adb7dc39d48e3.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 998px;
+    
+}
+#EVENTS{
+    background-image: repeating-linear-gradient(60deg, white 65%, red 580%);
+}
+.events{
+    font-size: 3.5rem;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    width: 100px;
+
+}
+.eventsall{
+    color: white;
+    padding: 60px;
+    margin: 60px;
+    font-size: 2.2rem;
+}
+.add1{
+    margin: 20px 5px;
+    padding: 25px 0px;
+}
+.add1 p {
+opacity: 0.6px;   
+font-size: 1.9rem; 
+}
+/* .add1 h3{
+    
+} */
+
+
+.add2{
+    margin: 20px 5px;
+    padding: 25px 0px;
+}
+.add2 p {
+opacity: 0.6px;  
+font-size: 1.9rem;  
+}
+/* .add2 h3{
+
+} */
+.add3{
+    margin: 20px 5px;
+    padding: 25px 0px;
+}
+.add3 p {
+opacity: 0.6px;  
+font-size: 1.9rem; 
+}
+/* .add3 h3{
+
+} */
+#ABOUT{
+    background-image: url('img/new.jpg');
+    min-height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutus{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    display: inline;
+    align-items: center;
+    padding: 440px 250px;
+    margin: 2px 200px;
+}
+.btn4{
+    font-size: 2.2rem;
+    border: 5px rgb(0, 0, 0) solid;
+    background-color:none;
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+    padding: 8px 120px;
+    margin: 45px 250px;
+    cursor: pointer;
+}
+.btn4 a:hover{
+    color: teal;
+}
+footer{
+    height: 300px;
+    background-color: red;
+}
+footer h3{
+    font-size: 2.5rem;
+    position: absolute;
+    left: 600px;
+    padding: 125px 0px;
+    color: white;
+}
+.social{
+    position: absolute;
+    left: 920px;
+    padding: 100px 6px;
+    margin: -3px 37px;
+}
+.social img{
+    padding: 2px 52px;
+    margin: 0px 0px;
+}
